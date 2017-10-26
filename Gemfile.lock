@@ -1,0 +1,14 @@
+GEM
+  specs:
+    fxruby (1.6.38)
+      mini_portile2 (~> 2.1)
+    mini_portile2 (2.3.0)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  fxruby
+
+BUNDLED WITH
+   1.15.4
