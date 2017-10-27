@@ -1,14 +1,18 @@
 GEM
+  remote: https://rubygems.org/
   specs:
     fxruby (1.6.38)
       mini_portile2 (~> 2.1)
     mini_portile2 (2.3.0)
+    nokogiri (1.8.1)
+      mini_portile2 (~> 2.3.0)
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
   fxruby
+  nokogiri
 
 BUNDLED WITH
    1.15.4
