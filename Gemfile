@@ -6,3 +6,4 @@ source 'https://rubygems.org'
 
 gem "fxruby"
 gem 'nokogiri'
+gem 'sqlite3'

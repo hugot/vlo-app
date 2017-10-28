@@ -21,14 +21,11 @@ end
 
 options = {}
 OptionParser.new do |opt|
-  command_opts.each do |gen_opt|
-    opt.on(gen_opt[:short], gen_opt[:long], gen_opt[:descr]) do |arg|
-      options[gen_opt[:short]] = arg
+  command_opts.each do |command_opt|
+    opt.on(command_opt[:short], command_opt[:long], command_opt[:descr]) do |arg|
+      options[command_opt[:short]] = arg
     end
   end
 end.parse!(ARGV.to_a)
-
-p options
-p ARGV
 
 execute(options)
